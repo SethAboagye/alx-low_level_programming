@@ -1,4 +1,4 @@
-#include <sdlio.h>
+#include <stdio.h>
 /**
  * main - Prints the number 0 to 9
  *
@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar(n);
 	}
+
 	putchar('\n');
 	return (0);
 }
