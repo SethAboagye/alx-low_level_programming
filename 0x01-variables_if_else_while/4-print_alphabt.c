@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - lowercase and uppercase
+ * main - Ommi some alphabet
  *
  * Return : Always (Success)
  */
@@ -10,14 +11,11 @@ int main(void)
 
 	for (c = 'a';c <= 'z';c++)
 	{
-		putchar(c);
+		if (c != 'e' && c !='q')
+		{
+			putchar(c);
+		}
 	}
-
-	for (c = 'A';c <= 'Z';c++)
-	{
-		putchar(c);
-	}
-
 	putchar('\n');
 	return (0);
 }
