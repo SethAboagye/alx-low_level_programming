@@ -3,14 +3,32 @@
 /**
  * main - 'Print possible combo
  *
- * Return :Always 
+ * Return :Always 0 
  */
 int main(void)
 {
-	int i, p, m;
+	int n, m, l;
 
-	for (i = 0; i < 9; i++)
+	for (n = 48; n < 58; n++)
 	{
-		for (p = P; p <= 9; p++)
+		for (m = 49; m < 58; m++)
 		{
-			for (m = 2, m =<  )
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+putchar('\n');
+return (0);
+}
