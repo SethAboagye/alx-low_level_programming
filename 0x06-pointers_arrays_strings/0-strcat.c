@@ -2,7 +2,7 @@
 /**
  * _strncat - concatenates n bytes from a string to another
  * @dest: destination string
- * @src: source string 
+ * @src: source string
  * Return: a pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
@@ -14,7 +14,6 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[i] != '\0')
 		i++;
-
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
